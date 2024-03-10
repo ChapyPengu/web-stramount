@@ -4,7 +4,7 @@ import Icon from './Icon'
 function App() {
   return (
     <>
-      <nav className='flex items-center justify-start bg-[#222] py-2.5 px-4'>
+      <nav className='flex items-center justify-start bg-[#222] py-2.5 px-4 shadow-lg'>
         <Icon/>
         <p className='cursor-pointer text-white ml-2 text-xl'>Stramount</p>
       </nav>
