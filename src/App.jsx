@@ -12,7 +12,7 @@ function App() {
     <>
       <Nav/>
       <div className='container mx-auto shadow-2xl'>
-        <section>
+        <section id='home'>
           <Header/>
         </section>
         <section id='projects'>

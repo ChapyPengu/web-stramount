@@ -28,13 +28,13 @@ const members = [
         lastname: 'dimitrioff',
         alias: 'Facu-Dimi',
         github: 'https://github.com/Facu-Dimi',
-        linkedin: '',
-        imgPath: 'facundo.jpg',
+        linkedin: 'https://www.linkedin.com/in/facundo-dimitrioff-187a312b9/',
+        imgPath: 'facundo.jpeg',
     },
     {
         name: 'javier',
         lastname: 'jimenez',
-        alias: 'ArtcOne',
+        alias: 'ArtecOne',
         github: 'https://github.com/ArtecOne',
         linkedin: 'https://www.linkedin.com/in/javier-jimenez-307a2925a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
         imgPath: 'javier.jpeg'
