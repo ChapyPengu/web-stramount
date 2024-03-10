@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @layer components {
+  .card {
+    @apply bg-red-500 w-40 rounded-lg h-40 grid text-white border-2 font-bold text-4xl place-content-center border-red-600
+  }
+} */
+
 body {
   padding: 0;
   margin: 0;
-  background-color: #333;
+  background-color: #fff;
 }
