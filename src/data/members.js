@@ -21,7 +21,7 @@ const members = [
         alias: 'MatZxZx',
         github: 'https://github.com/MatZxZx',
         linkedin: '',
-        imgPath: 'matias.jpg',
+        imgPath: 'matias.jpeg',
     },
     {
         name: 'facundo',
