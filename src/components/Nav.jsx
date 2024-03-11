@@ -15,7 +15,7 @@ function Nav() {
         <div className='flex items-center'>
           <a href="#home" className='flex items-center'>
             <Icon/>
-            <p className='cursor-pointe ml-1 text-base font-akshar font-bold lowercase'>Stramount</p>
+            <p className='cursor-pointe ml-2 text-lg font-akshar font-bold lowercase'>Stramount</p>
           </a>
         </div>
         <div>

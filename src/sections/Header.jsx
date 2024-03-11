@@ -3,7 +3,7 @@ import Title from '../components/Title'
 
 function Header() {
   return (
-    <div className='py-24 px-4 sm:px-0 border border-black'>
+    <div className='py-48 px-4 sm:px-0 border border-black'>
         <div className='mx-auto flex items-center justify-center gap-2 flex-col'>
             <Title title='Stramount'/>
             <p className='text-sm font-medium mt-2'>
