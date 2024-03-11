@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'akshar': ['Akshar', 'system-ui']
+        'akshar': ['Akshar', 'system-ui'],
+        'open': ['Open Sans', 'system-ui']
       }
     },
   },

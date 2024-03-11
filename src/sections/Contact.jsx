@@ -1,6 +1,6 @@
 import React from 'react'
 import TitleSection from '../components/TitleSection'
-import Form from '../components/formulario/Form'
+import Form from '../components/Form'
 
 function Contact() {
   return (

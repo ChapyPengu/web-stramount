@@ -6,6 +6,7 @@ import Footer from './sections/Footer'
 import Header from './sections/Header'
 import Members from './sections/Members'
 import Projects from './sections/Projects'
+import Stack from './sections/Stack'
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <header id='home'>
           <Header/>
         </header>
-        
+
         <main>
           <section id='projects'>
             <Projects/>
@@ -25,6 +26,9 @@ function App() {
           </section>
           <section id='members'>
             <Members/>
+          </section>
+          <section>
+            <Stack/>
           </section>
           <section id='contact'>
             <Contact/>
