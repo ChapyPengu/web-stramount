@@ -8,7 +8,7 @@ function About() {
         <div className='text-center mb-6'>
           <TitleSection title='Sobre Nosotros'/>
         </div>
-        <div className='sm:w-[600px] flex flex-col gap-4'>
+        <article className='sm:w-[600px] flex flex-col gap-4'>
           <p>
             Somos estudiantes en el la Escuela Tecnica 21 DE 10, en Buenos Aires Capital. Creamos Stramount como una empresa
             simulada para la asignatura de Practicas Profesionalizantes, la idea es que a lo largo de año podamos realizar
@@ -18,7 +18,7 @@ function About() {
             Este año tenemos pensado desarrollar 4 proyectos entre ellos una aplicacion de futbol, una aplicacion de comida,
             una aplicacion de tareas y por ultimo un juego de plataformas
           </p>
-        </div>
+        </article>
       </div>
     </div>
   )

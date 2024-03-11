@@ -12,24 +12,28 @@ function App() {
     <>
       <Nav/>
       <div className='container mx-auto shadow-2xl'>
-        <section id='home'>
+        <header id='home'>
           <Header/>
-        </section>
-        <section id='projects'>
-          <Projects/>
-        </section>
-        <section id='about'>
-          <About/>
-        </section>
-        <section id='members'>
-          <Members/>
-        </section>
-        <section id='contact'>
-          <Contact/>
-        </section>
-        <section>
+        </header>
+        
+        <main>
+          <section id='projects'>
+            <Projects/>
+          </section>
+          <section id='about'>
+            <About/>
+          </section>
+          <section id='members'>
+            <Members/>
+          </section>
+          <section id='contact'>
+            <Contact/>
+          </section>
+        </main>
+        
+        <footer>
           <Footer/>
-        </section>
+        </footer>
       </div>
     </>
     )
