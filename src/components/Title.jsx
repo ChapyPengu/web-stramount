@@ -13,7 +13,10 @@ function Title({ title }) {
 
   return (
     <h1
-    className={`text-5xl sm:text-7xl font-akshar font-semibold uppercase ${ inAnimate ? 'animate__animated animate__fadeInLeft' : ''}`}
+    className={`
+      bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-sky-400
+      text-5xl sm:text-7xl font-akshar font-semibold uppercase ${ inAnimate ? 'animate__animated animate__fadeInLeft' : ''}`
+    }
     >
         { title }
     </h1>

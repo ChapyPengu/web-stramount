@@ -7,7 +7,7 @@ function Members() {
     
 
   return (
-    <div className='py-12 sm:px-0 px-6 border border-black'>
+    <div className='py-12 sm:px-0 px-6'>
         <div>
             <div className='text-center'>
                 <TitleSection title='Miembros'/>
@@ -15,6 +15,7 @@ function Members() {
             <div className='flex flex-wrap justify-center  items-center mt-12 gap-8'>
                 {
                     members.map(({ name, lastname, imgPath, alias, github, linkedin }) => <MemberIcon
+                        key={name}
                         name={name}
                         lastname={lastname}
                         alias={alias}

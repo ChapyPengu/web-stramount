@@ -3,7 +3,7 @@ import TitleSection from '../components/TitleSection'
 
 function Projects() {
   return (
-    <div className='py-24 px-4 sm:px-0 border border-black'>
+    <div className='py-24 px-4 sm:px-0'>
         <div>
             <div className='text-center'>
               <TitleSection title='Proyectos'/>

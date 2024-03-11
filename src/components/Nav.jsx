@@ -14,28 +14,28 @@ function Nav() {
       <div className='container mx-auto flex justify-between items-center'>
         <div className='flex items-center'>
           <a href="#home" className='flex items-center'>
-            <Icon/>
-            <p className='ml-2 text-lg font-akshar font-bold lowercase'>Stramount</p>
+            <Icon className='w-9 h-9' color='black'/>
+            <p className='ml-2 text-lg font-akshar font-medium lowercase'>Stramount</p>
           </a>
         </div>
         <div>
           <div className='md:hidden p-1' onClick={onClickBars}>
-            <i class="fa-solid fa-bars cursor-pointer"></i>
+            <i className="fa-solid fa-bars cursor-pointer"></i>
           </div>
           <ul className='hidden md:flex gap-6'>
-            <li className='text-sm font-light font-open text-zinc-800 hover:text-zinc-950 border-b-[1px] border-b-transparent hover:border-b-zinc-950 '><a href="#projects">Proyectos</a></li>
-            <li className='text-sm font-light font-open text-zinc-800 hover:text-zinc-950 border-b-[1px] border-b-transparent hover:border-b-zinc-950 '><a href="#about">Sobre Nosotros</a></li>
-            <li className='text-sm font-light font-open text-zinc-800 hover:text-zinc-950 border-b-[1px] border-b-transparent hover:border-b-zinc-950 '><a href="#members">Miembros</a></li>
-            <li className='text-sm font-light font-open text-zinc-800 hover:text-zinc-950 border-b-[1px] border-b-transparent hover:border-b-zinc-950 '><a href="#contact">Contacto</a></li>
+            <li className='text-sm font-normal font-open text-black'><a className='hover:text-blue-600 border-b-[1px] border-b-transparent hover:border-b-blue-600' href="#projects">Proyectos</a></li>
+            <li className='text-sm font-normal font-open text-black'><a className='hover:text-blue-600 border-b-[1px] border-b-transparent hover:border-b-blue-600' href="#about">Sobre Nosotros</a></li>
+            <li className='text-sm font-normal font-open text-black'><a className='hover:text-blue-600 border-b-[1px] border-b-transparent hover:border-b-blue-600' href="#members">Miembros</a></li>
+            <li className='text-sm font-normal font-open text-black'><a className='hover:text-blue-600 border-b-[1px] border-b-transparent hover:border-b-blue-600' href="#contact">Contacto</a></li>
           </ul>
         </div>
       </div>
       <div className='block md:hidden container mx-auto'>
         <ul className={`${responsive ? 'flex' : 'hidden'} flex-col gap-4 py-4`}>
-          <li className='text-sm font-light font-open text-zinc-800 hover:text-zinc-950 border-b-[1px] border-b-transparent hover:border-b-zinc-950 '><a href="#projects">Proyectos</a></li>
-          <li className='text-sm font-light font-open text-zinc-800 hover:text-zinc-950 border-b-[1px] border-b-transparent hover:border-b-zinc-950 '><a href="#about">Sobre Nosotros</a></li>
-          <li className='text-sm font-light font-open text-zinc-800 hover:text-zinc-950 border-b-[1px] border-b-transparent hover:border-b-zinc-950 '><a href="#members">Miembros</a></li>
-          <li className='text-sm font-light font-open text-zinc-800 hover:text-zinc-950 border-b-[1px] border-b-transparent hover:border-b-zinc-950 '><a href="#contact">Contacto</a></li>
+          <li className='text-sm font-normal font-open text-black'><a className='hover:text-blue-600 border-b-[1px] border-b-transparent hover:border-b-blue-600' href="#projects">Proyectos</a></li>
+          <li className='text-sm font-normal font-open text-black'><a className='hover:text-blue-600 border-b-[1px] border-b-transparent hover:border-b-blue-600' href="#about">Sobre Nosotros</a></li>
+          <li className='text-sm font-normal font-open text-black'><a className='hover:text-blue-600 border-b-[1px] border-b-transparent hover:border-b-blue-600' href="#members">Miembros</a></li>
+          <li className='text-sm font-normal font-open text-black'><a className='hover:text-blue-600 border-b-[1px] border-b-transparent hover:border-b-blue-600' href="#contact">Contacto</a></li>
         </ul>
       </div>
     </nav>

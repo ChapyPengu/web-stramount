@@ -6,6 +6,7 @@ import Footer from './sections/Footer'
 import Header from './sections/Header'
 import Members from './sections/Members'
 import Projects from './sections/Projects'
+import Section from './sections/Section'
 import Stack from './sections/Stack'
 
 function App() {
@@ -13,13 +14,15 @@ function App() {
     <>
       <Nav/>
       <div className='container mx-auto shadow-2xl'>
-        <header id='home'>
+        <header className='bg-white' id='home'>
           <Header/>
         </header>
 
-        <main>
+        <main className='bg-white'>
           <section id='projects'>
-            <Projects/>
+            <Section>
+              <Projects/>
+            </Section>
           </section>
           <section id='about'>
             <About/>
@@ -35,7 +38,7 @@ function App() {
           </section>
         </main>
         
-        <footer>
+        <footer className='bg-white'>
           <Footer/>
         </footer>
       </div>

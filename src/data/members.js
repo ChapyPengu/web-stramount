@@ -5,7 +5,7 @@ const members = [
         alias: 'Chapy Pengu',
         github: 'https://github.com/ChapyPengu',
         linkedin: 'https://www.linkedin.com/in/lautaro-chaparro-8814a1294/',
-        imgPath: 'lautaro.jpg',
+        imgPath: 'members/lautaro.jpg',
     },
     {
         name: 'sebastian',
@@ -13,7 +13,7 @@ const members = [
         alias: 'La Mosca',
         github: 'https://github.com/sebasCARP',
         linkedin: '',
-        imgPath: 'sebastian.jpg',
+        imgPath: 'members/sebastian.jpg',
     },
     {
         name: 'matias',
@@ -21,7 +21,7 @@ const members = [
         alias: 'MatZxZx',
         github: 'https://github.com/MatZxZx',
         linkedin: '',
-        imgPath: 'matias.jpeg',
+        imgPath: 'members/matias.jpeg',
     },
     {
         name: 'facundo',
@@ -29,7 +29,7 @@ const members = [
         alias: 'Facu-Dimi',
         github: 'https://github.com/Facu-Dimi',
         linkedin: 'https://www.linkedin.com/in/facundo-dimitrioff-187a312b9/',
-        imgPath: 'facundo.jpeg',
+        imgPath: 'members/facundo.jpeg',
     },
     {
         name: 'javier',
@@ -37,7 +37,7 @@ const members = [
         alias: 'ArtecOne',
         github: 'https://github.com/ArtecOne',
         linkedin: 'https://www.linkedin.com/in/javier-jimenez-307a2925a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-        imgPath: 'javier.jpeg'
+        imgPath: 'members/javier.jpeg'
     }
 ]
 
