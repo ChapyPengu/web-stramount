@@ -3,7 +3,7 @@ import Title from '../components/Title'
 
 function Header() {
   return (
-    <div className='pt-40'>
+    <div className='pt-40 sm:h-screen'>
       <div className='mx-auto flex flex-col xl:flex-row max-w-max gap-12 px-4 sm:px-0'>
         <div className='flex items-center justify-center flex-col'>
           <Title title='Stramount'/>
