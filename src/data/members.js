@@ -13,7 +13,7 @@ const members = [
         alias: 'La Mosca',
         github: 'https://github.com/sebasCARP',
         linkedin: '',
-        imgPath: 'members/sebastian.jpg',
+        imgPath: 'members/sebastian.jpeg',
     },
     {
         name: 'matias',
